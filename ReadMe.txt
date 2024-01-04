@@ -8,8 +8,10 @@ Rules:
 5. Player should get max dice number to move their symbol in board
 
 Flow:
+-> Size of dice is 6 in code can be changed further
+-> Every player will have initial point as -1,-1
 -> Until player gets maximum number they can't start game
--> If user got max number he/she will get another chance to play
+-> If user got max number he/she will get another chance to play start point will be updated to 0,0
 -> If user needs to move a cell which is already occupied by another player then also he/she will get a chance
 -> Who ever first reaches the board last cell will be considered as winner
 
@@ -36,6 +38,11 @@ To Play in command line:
 3. If you got max dice number your game will start
 4. Go on and continue to play
 5. Until you win :)
+
+
+Future Scope:
+1. Can create UI for to play game
+2. Can integrate multiple libraries to make it more efficient
 
 
 Happy Coding........... :)
